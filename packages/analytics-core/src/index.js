@@ -199,7 +199,7 @@ function analytics(config = {}) {
      * Disable analytics plugin
      * @typedef {Function} DisablePlugin
      * @param  {String|Array} name - name of integration(s) to disable
-     * @param  {Function} callback - callback after disable runs
+     * @param  {Function} [callback] - callback after disable runs
      * @example
      *
      * analytics.plugins.disable('google')
